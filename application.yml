@@ -12,8 +12,8 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - MUSIC
-      - ANDROID
       - WEB
+      - TVHTML5EMBEDDED
 
   lavasrc:
     providers:
@@ -35,7 +35,7 @@ plugins:
 
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.5"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.2"
       snapshot: false
     - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.8.3"
       repository: "https://maven.lavalink.dev/releases"
