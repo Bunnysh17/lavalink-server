@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: lavalink-server
+    env: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: LAVALINK_PASSWORD
+        value: youshallnotpass
+      - key: SPOTIFY_CLIENT_ID
+        value: e6f84fbec2b44a77bf35a20c5ffa54b8
+      - key: SPOTIFY_CLIENT_SECRET
+        value: 498f461b962443cfaf9539c610e2ea81
